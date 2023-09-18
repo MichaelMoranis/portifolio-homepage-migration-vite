@@ -1,0 +1,30 @@
+[
+ {
+     "id": 1,
+     "heading": "Organo: App",
+     "image": "https://img.freepik.com/vetores-premium/design-de-modelo-vetorial-de-organograma-para-web-e-impressao_29008-381.jpg?w=740",
+     "text":"Organo: Minha aplicacao web desenvolvida para desenvolvedores adicionarem seus times e escolher sua cor preferida! Nessa aplicacao tive o primeiro contato consistente com a lib React JS, entendi conceitos de componentes, propriedades e qual o problema que essa biblioteca veio para resolver !",
+     "link": "https://organo-app-alura.vercel.app/"
+ },
+  {
+     "id": 2,
+     "image": "https://conexao.coop.br/wp-content/uploads/2022/10/iStock-1298941630.png",
+     "heading": "Negociacoes:",
+     "text": " Aplicacao construida para testar meus conhecimentos em TypeScript! Aqui eu pude por em pratica qual a diferenca entre uma aplicacao construida com TypeScript e JavaScript, e como os tipos podem ajudar o desenvolvedor no momento de desenvolvimento e como pode ser util para evitar erros que possam ir para producao.",
+     "link": "https://github.com/MichaelMoranis/negotiations-T-S"
+ },
+  {
+     "id": 3,
+     "image": "https://assets.justinmind.com/wp-content/webp-express/webp-images/uploads/2019/10/best-20-web-development-blogs.png.webp",
+     "heading": "Blog:",
+     "text": " Meu website pessoal onde compartilho todo o conhecimento adquirido durante minha jornada como desenvolvedor web! No meu blog, estou reunindo varias das aplicacoes desenvolvidas ao longo dos meus estudos de desenvolvimento web!",
+     "link": "https://blog-homepage-gamma.vercel.app/"
+ },
+   {
+     "id": 4,
+     "image": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+     "heading": "Linktree-Media",
+     "text": " Linktree-media é um projeto simples onde copio a interface do Lintree, mas porém aqui sou livre para customizar da minha forma, do meu jeito, muito legal não é ?",
+     "link": "https://linktree-midia.vercel.app/"
+ }
+]

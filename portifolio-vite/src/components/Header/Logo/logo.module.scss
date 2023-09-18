@@ -1,0 +1,14 @@
+.container__logo {
+ color: "#fff";
+ text-decoration: none;
+ cursor: pointer;
+ font-family: var(--font-origin);
+ font-size: 32px;
+}
+
+@media screen and (max-width: 502px) {
+ .container__logo {
+  padding: 0.5em;
+  font-size: 24px;
+ }
+}
