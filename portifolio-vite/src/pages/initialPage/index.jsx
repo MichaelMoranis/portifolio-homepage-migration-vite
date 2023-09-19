@@ -1,7 +1,7 @@
 import styles from "./initial.module.scss";
-import posts from "../../json/post.json"
+import posts from "src/json/post.json"
 import { Link } from "react-router-dom";
-import Posts from "../../components/Posts";
+import Posts from "components/Posts";
 
 function InitialPage() {
   return (

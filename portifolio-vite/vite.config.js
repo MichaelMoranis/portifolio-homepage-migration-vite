@@ -8,5 +8,12 @@ export default defineConfig({
     jsxFragment: 'React.Fragment',
   },
   plugins: [react()],
+  resolve: {
+    alias: {
+      src: "/src",
+      components: "/src/components",
+      pages: "src/pages"
+    }
+  }
 })
 
