@@ -6,13 +6,13 @@ function Profile() {
       <div className={styles.profile__container}>
         <div className={styles.container__title}>
           <h1 className={styles.title}>
-            Sou Michael, um desenvolvedor web. Atualmente estou morando em
-            Cascavel PR
+            Sou Michael, um desenvolvedor web. Atualmente moro em
+            Cascavel PR !
           </h1>
         </div>
       </div>
       <p className={styles.paragraf}>
-        Sou Michael, um desenvolvedor Web... <br />
+        Sou Michael, um desenvolvedor Web...
         Atualmente estou morando em Cascavel PR, e buscando oportunidades em
         desenvolvimento web, onde estou buscando contribuir a construir a
         próxima geração de aplicativos web.
