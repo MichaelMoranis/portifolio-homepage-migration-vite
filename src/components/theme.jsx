@@ -5,6 +5,12 @@ const config = {
  useSystemColorMode: true,
 }
 
-const theme = extendTheme({ config });
+const theme = extendTheme({ 
+    config,
+    fontSizes: {
+        mobile: "2rem"
+    }
+
+});
 
 export default theme;
