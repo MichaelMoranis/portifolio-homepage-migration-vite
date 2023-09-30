@@ -1,6 +1,6 @@
 import LogoLink from "./Logo";
 import Navigation from "../Navgation";
-import { Box, Flex } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 function Header() {
   return (
@@ -13,9 +13,9 @@ function Header() {
       <Box
         display="flex"
         justifyContent="space-between"
+        padding="1"
         bgColor="#F31F00"
-        padding="10px"
-        borderBottomRadius="10px"
+        borderBottomRadius="6px"
         zIndex="999"
         position="fixed"
         width={{base: "100%", md: "100vh", lg: "100vh"}}

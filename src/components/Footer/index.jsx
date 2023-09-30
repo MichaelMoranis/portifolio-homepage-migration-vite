@@ -7,8 +7,12 @@ function Footer() {
          justifyContent="center"
          alignItems="center"
          height="2rem"
+         width="100vw"
         >
-            <Text>
+            <Text 
+             display="flex"
+             alignItems="center"
+             >
              &copy; 2023 Michael Moranis. Todos os direitos reservados.
             </Text>
         </Box>
