@@ -6,6 +6,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 function InitialPage() {
   return (
     <Flex
+      pt="2rem"
       display="flex"
       justifyContent="center"
       alignItems="center"
@@ -17,7 +18,8 @@ function InitialPage() {
     >
       <Box>
         <Text
-         pb="2rem" 
+         pb={{base: "2rem", md: "2.5rem", lg: "2rem"}}
+         pt={{base: "4rem", md: "2.5m", lg: "2.5rem"}}
          fontSize={{base: "24px", md: "32px", lg: "36px"}}
         >
           Desenvolvedor web interessado em desenvolvimento de aplicativos,

@@ -16,9 +16,11 @@ function Profile() {
         textAlign={{ base: "left", md: "left" }}
         p={{ base: 4, md: 6, lg: 8 }}
       >
-        <Box pb="2rem" pt="0.5rem">
+        <Box pb="2rem" pt="2rem">
           <Box>
-            <Text fontSize={{base:"24px", md:"36px", lg:"42px"}} 
+            <Text 
+             fontSize={{base:"24px", md:"36px", lg:"42px"}} 
+             pt={{base: "2rem", md: "2.5rem", lg: "2rem"}}
             >
               Sou Michael, um desenvolvedor web. Atualmente moro em Cascavel PR
               !
