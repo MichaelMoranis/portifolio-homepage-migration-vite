@@ -4,8 +4,8 @@ function Footer() {
     return (
         <Box
          display="flex"
-         justifyContent="center"
-         alignItems="center"
+         justifyContent={{base: "center", md: "center", lg: "center"}}
+         alignItems={{base: "center", md: "center", lg: "center"}}
          height="2rem"
          width="100vw"
         >

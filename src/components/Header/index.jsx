@@ -12,6 +12,7 @@ function Header() {
      >
       <Box
         display="flex"
+        alignItems="center"
         justifyContent="space-between"
         padding="1"
         bgColor="#F31F00"
