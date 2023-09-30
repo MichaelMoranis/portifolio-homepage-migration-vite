@@ -1,33 +1,47 @@
-import styles from "./initial.module.scss";
 import posts from "src/json/post.json"
 import { Link } from "react-router-dom";
 import Posts from "components/Posts";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 function InitialPage() {
   return (
-    <main className={styles.container}>
-      <div className={styles.container__titulo}>
-        <h1 className={styles.titulo}>
+    <Flex
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      flexDirection="column"
+      maxWidth="100vh" // Defina a largura máxima desejada em pixels ou outra unidade
+      width="100%" // Defina a largura como 100% para ocupar todo o espaço disponível
+      marginX="auto" // Define margens iguais nas laterais para centralizar o conteúdo
+      p={{ base: 4, md: 6, lg: 8 }}
+    >
+      <Box>
+        <Text
+         pb="2rem" 
+         fontSize={{base: "12px", md: "24px", lg: "32px"}}
+        >
           Desenvolvedor web interessado em desenvolvimento de aplicativos,
           sites, jogos e sistemas baseados na web!
-        </h1>
-      </div>
-      <div className={styles.content__paragraf}>
-        <p className={styles.container__paragraf}>
+        </Text>
+      </Box>
+      <Box>
+        <Text
+          pb="2rem"
+        >
           👋 Olá, sou Michael, um desenvolvedor focado em FrontEnd que mora em
           Cascavel PR. Atualmente estou em desenvolvimento de novas habilidades
           em engenharia de software !
-        </p>
-        <div className={styles.container__link}>
-        <Link to="/profile" className={styles.link}>
-          Sobre mim 
+        </Text>
+        <Box pb="2rem">
+        <Link to="/profile">
+          clique aqui para ver mais.
         </Link>
-        </div>
-      </div>
-      <section className={styles.containerPage}>
+        </Box>
+      </Box>
+      <Box>
         <Posts posts={posts} />
-      </section>
-    </main>
+      </Box>
+    </Flex>
   );
 }
 

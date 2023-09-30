@@ -26,26 +26,39 @@ function Profile() {
           </Box>
         </Box>
         <Box>
-          <Text pb="2rem">
+          <Text 
+          pb="2rem"
+          fontSize={{base:"12px", md: "24px", lg: "28px"}}
+          >
            Estou em busca de oportunidades em desenvolvimento web, onde
             quero ajudar a construir a próxima geração de
             aplicativos web !!
           </Text>
-          <Text pb="2rem">
+          <Text 
+          pb="2rem"
+          fontSize={{base:"12px", md: "24px", lg: "28px"}}
+          >
             Tenho uma paixão particular por sistemas de desenvolvimento de
             software e ferramentas de design , tenho tido a oportunidade de
             trabalhar com essas ferramentas em meus estudos anteriores e em
             projetos desenvolvidos por mim aqui na web.
           </Text>
+          <Text 
+          pb="2rem"
+          fontSize={{base:"12px", md: "24px", lg: "28px"}}
+          >
+            Procuro sempre me manter ativo no github, seja atualizando meus projetos existentes, ou em busca de contribuir em projetos open source, gosto de ver o que os outros desenvolvedores estao fazendo a fim de buscar inspiracao e aprender com eles !
+          </Text>
         </Box>
         <Box>
-          <Text pb="2rem">Também escrevo artigos no Dev.To !</Text>
-          <h2>Buscando experiencias</h2>
-          <Text pb="2rem">
+          <Text 
+           pb="2rem"
+           fontSize={{base:"12px", md: "24px", lg: "28px"}}
+           >
             <strong>Buscando experiencias</strong>{" "}
             <small>(Estudando desde 2021)</small>
           </Text>
-          <Text>
+          <Text fontSize={{base:"12px", md: "24px", lg: "28px"}}>
             Como engenheiro da web, tenho procurado me atualizar sempre,
             buscando estar por dentro das noticias e novidades que acontecem na
             comunidade de desenvolvimento !
