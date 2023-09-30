@@ -1,31 +1,32 @@
-import { useEffect, useState } from "react";
 import LogoLink from "./Logo";
-import Navigation from "../Navgation"
-import styles from "./header.module.scss"
-import { useColorModeValue } from "@chakra-ui/react";
+import Navigation from "../Navgation";
+import { Box, Flex } from "@chakra-ui/react";
 
 function Header() {
-  const [Scrolled, setScrolled] = useState(false);
-  const textColor = useColorModeValue("black", "white")
-
-  useEffect(() => {
-    const  handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if(scrollTop > 10) {
-        setScrolled(true)
-      } else {
-        setScrolled(false)
-      }
-    }
-    window.addEventListener("scroll", handleScroll)
-  }, []);
-
- return (
-   <header className={`${styles.container_header} ${Scrolled ? styles.darkBackGround : ""}  ${textColor}}`}>
-     <LogoLink />
-     <Navigation />
-   </header>
- )
+  return (
+    <Box
+     display="flex"
+     alignContent="center"
+     justifyContent="center"
+     width="100%"
+     >
+      <Box
+        display="flex"
+        justifyContent="space-between"
+        bgColor="#F31F00"
+        padding="10px"
+        borderBottomRadius="10px"
+        zIndex="999"
+        position="fixed"
+        width={{base: "100%", md: "100vh", lg: "100vh"}}
+      >
+        <Navigation />
+        <LogoLink />
+      </Box>
+    </Box>
+  );
 }
 
 export default Header;
+
+// className={`${styles.container_header} ${Scrolled ? styles.darkBackGround : ""}  ${textColor}}`}

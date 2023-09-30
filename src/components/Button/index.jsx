@@ -11,6 +11,8 @@ function ThemeToggle() {
     icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
     onClick={toggleColorMode}
     aria-label="Toggle Theme"
+    _hover={{bg: "blue.100"}}
+    border="solid 1px"
   />
  )
 }

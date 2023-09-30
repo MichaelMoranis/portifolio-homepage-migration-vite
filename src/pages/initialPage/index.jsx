@@ -18,7 +18,7 @@ function InitialPage() {
       <Box>
         <Text
          pb="2rem" 
-         fontSize={{base: "12px", md: "24px", lg: "32px"}}
+         fontSize={{base: "24px", md: "32px", lg: "36px"}}
         >
           Desenvolvedor web interessado em desenvolvimento de aplicativos,
           sites, jogos e sistemas baseados na web!

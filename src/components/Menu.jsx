@@ -1,4 +1,4 @@
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { AddIcon, ExternalLinkIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { 
  Menu,
  MenuButton,
@@ -11,20 +11,29 @@ import { Link } from "react-router-dom";
  function MenuNavigation() {
   return (
    <>
-     <Menu display="flex" marginLeft="auto">
+     <Menu display="flex" marginLeft="10px">
       <MenuButton 
       as={IconButton} 
       arial-label="options"
       icon={<HamburgerIcon />}
       variant="outline"
       transition="all 0.2s"
-      _hover={{bg: "gray.400"}}
+      border="solid 1px"
+      _hover={{bg: "blue.100"}}
       >
       </MenuButton>
       <MenuList>
-       <MenuItem fontSize="xl"><Link to="/profile">perfil</Link></MenuItem>
-       <MenuItem fontSize="xl"><Link to="/">bio</Link></MenuItem>
-       <MenuItem fontSize="xl"><a href="https://github.com/michaelmoranis" target="_blanck">github</a></MenuItem>
+       <Link to="/profile">
+        <MenuItem icon={ <AddIcon />} fontSize="xl">perfil</MenuItem>
+       </Link>
+       <Link to="/">
+        <MenuItem icon={<ExternalLinkIcon />} fontSize="xl">bio</MenuItem>
+       </Link>
+       <a href="https://github.com/michaelmoranis" target="_blank">
+       <MenuItem icon={<ExternalLinkIcon />}  fontSize="xl">
+         github
+       </MenuItem>
+       </a>
       </MenuList>
      </Menu>
    </>
