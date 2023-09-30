@@ -20,6 +20,7 @@ import { Link } from "react-router-dom";
       transition="all 0.2s"
       border="solid 1px"
       _hover={{bg: "blue.100"}}
+      marginRight="5px"
       >
       </MenuButton>
       <MenuList>
