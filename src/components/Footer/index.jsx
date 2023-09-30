@@ -4,14 +4,15 @@ function Footer() {
     return (
         <Box
          display="flex"
-         justifyContent={{base: "center", md: "center", lg: "center"}}
-         alignItems={{base: "center", md: "center", lg: "center"}}
+         alignContent="center"
+         marginLeft={{base: "2rem"}}
+         pb={{base: "4rem"}}
          height="2rem"
          width="100vw"
         >
             <Text 
              display="flex"
-             alignItems="center"
+             fontSize="18px"
              >
              &copy; 2023 Michael Moranis. Todos os direitos reservados.
             </Text>

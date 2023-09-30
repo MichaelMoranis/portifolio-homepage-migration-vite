@@ -30,7 +30,7 @@ function Profile() {
         <Box>
           <Text 
           pb="2rem"
-          fontSize={{base:"12px", md: "24px", lg: "28px"}}
+          fontSize={{base:"18px", md: "24px", lg: "32px"}}
           >
            Estou em busca de oportunidades em desenvolvimento web, onde
             quero ajudar a construir a próxima geração de
