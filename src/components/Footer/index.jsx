@@ -1,23 +1,16 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 
 function Footer() {
-    return (
-        <Box
-         display="flex"
-         alignContent="center"
-         marginLeft={{base: "2rem"}}
-         pb={{base: "4rem"}}
-         height="2rem"
-         width="100vw"
-        >
-            <Text 
-             display="flex"
-             fontSize="18px"
-             >
-             &copy; 2023 Michael Moranis. Todos os direitos reservados.
-            </Text>
-        </Box>
-    )
+  return (
+    <Flex alignItems="center" justifyContent="center">
+      <Box display="flex" alignContent="center" height="2rem" width="100vh" textAlign={{ base: "left", md: "left" }}
+      >
+        <Text fontSize="18px" paddingLeft="1rem">
+          &copy; 2023 Michael Moranis. Todos os direitos reservados.
+        </Text>
+      </Box>
+    </Flex>
+  );
 }
 
 export default Footer;
